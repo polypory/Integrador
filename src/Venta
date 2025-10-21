@@ -1,0 +1,16 @@
+public abstract class Venta{
+  private int id venta;
+  private static incremental_venta=1;
+
+  private arraylist<Libro> productos;
+  private LocalDateTime hora_y_fecha;
+  private double subtotal;
+  private double total;
+  private MedioDePago medio;
+
+  private Estado_venta
+
+  toString
+
+  
+}
