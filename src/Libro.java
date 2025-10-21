@@ -130,5 +130,11 @@ public abstract class Libro{
       Libro otro = (Libro) obj;
       return this.getIdentificador().equals(otro.getIdentificador());
     }
-  
+
+  public Boolean tiene_isbn(){
+    if(this.isbn==null)
+      return false;
+    else
+      return true;
+    }
 }
