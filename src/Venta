@@ -1,16 +1,27 @@
 public abstract class Venta{
+
+//atributos id
   private int id venta;
   private static incremental_venta=1;
-
+//atributos venta
   private arraylist<Libro> productos;
   private LocalDateTime hora_y_fecha;
   private double subtotal;
   private double total;
   private MedioDePago medio;
+  private Estado_venta estado;
 
-  private Estado_venta
+  toString...
 
-  toString
+  public void agrega_item(Libro libro){
+    productos.add(libro);}
+  public void sacar_item(Libro libro)throws IllegalArgumentException{
+    if(!productos.contains(libro)
+      throw new IllegalArgumentException("Libro no esta en la lista")
+    if libro
+
+producto.remove(libro);}
+
 
   
 }
