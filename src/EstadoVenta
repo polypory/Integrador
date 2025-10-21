@@ -1,0 +1,5 @@
+public enum EstadoVenta {
+    EN_PROCESO,
+    CONFIRMADA,
+    ANULADA
+}
